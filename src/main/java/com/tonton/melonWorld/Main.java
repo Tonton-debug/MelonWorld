@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.WorldCreator;
 import org.bukkit.plugin.PluginManager;
-import com.tonton.melonWorld.CoderDojoCommand;
+
 import com.tonton.melonWorld.EventsListener;
 
 public class Main extends JavaPlugin {
@@ -15,7 +15,7 @@ public class Main extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new EventsListener(), this);
 		
 		//Register Command Executors
-		//this.getCommand("CoderDojo").setExecutor(new CoderDojoCommand());
+		this.getCommand("melon").setExecutor(new MelonCommands());
     	GenerateMelonWorld();
     }
     private void GenerateMelonWorld() {

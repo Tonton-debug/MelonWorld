@@ -4,4 +4,8 @@ version: 0.0.1
 author: tonton
 main: com.tonton.melonWorld.Main
 api-version: '1.13'
-
+commands: 
+   melon: 
+      description: melons.
+      permission: melon.melon
+      usage: /<command> 

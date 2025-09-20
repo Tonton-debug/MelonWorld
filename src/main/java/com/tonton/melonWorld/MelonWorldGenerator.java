@@ -38,7 +38,7 @@ SimplexOctaveGenerator generator = new SimplexOctaveGenerator(new Random(worldIn
 	 }
 	 @Override
 	 public List<BlockPopulator> getDefaultPopulators(World world) {
-	     return Arrays.asList((BlockPopulator)new MelonBlockPopulator());
+	     return Arrays.asList((BlockPopulator)new MelonBlockPopulator(),(BlockPopulator)new TreeMelonBlockPopulator());
 	 }
 	 @Override
 	 public void generateNoise(WorldInfo worldInfo,  Random random, int chunkX, int chunkZ,  ChunkGenerator.ChunkData chunkData)

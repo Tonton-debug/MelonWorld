@@ -1,8 +1,7 @@
 com\tonton\melonWorld\MelonEntityCreator.class
 com\tonton\melonWorld\MelonHelper.class
+com\tonton\melonWorld\EventsListener.class
 com\tonton\melonWorld\MelonWorldGenerator.class
 com\tonton\melonWorld\MelonBiomeProvider.class
 com\tonton\melonWorld\MelonBlockPopulator.class
-com\tonton\melonWorld\CoderDojoCommand.class
-com\tonton\melonWorld\EventsListener.class
 com\tonton\melonWorld\Main.class
